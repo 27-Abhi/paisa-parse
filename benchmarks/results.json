@@ -1,0 +1,60 @@
+{
+  "dataset": "stress_test.json",
+  "total_cases": 130,
+  "exact_matches": 130,
+  "utterance_accuracy": 1.0,
+  "entity_metrics": {
+    "true_positives": 134,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "policy_accuracy": 1.0,
+  "policy_matched_entities": 134,
+  "latency_ms": {
+    "p50": 0.25,
+    "p95": 0.544,
+    "p99": 0.809,
+    "mean": 0.293
+  },
+  "categories": {
+    "colloquial_fractions": {
+      "total": 25,
+      "exact": 25,
+      "accuracy": 1.0
+    },
+    "compound_amounts": {
+      "total": 20,
+      "exact": 20,
+      "accuracy": 1.0
+    },
+    "spoken_digits": {
+      "total": 20,
+      "exact": 20,
+      "accuracy": 1.0
+    },
+    "upi_ids": {
+      "total": 20,
+      "exact": 20,
+      "accuracy": 1.0
+    },
+    "ifsc_codes": {
+      "total": 15,
+      "exact": 15,
+      "accuracy": 1.0
+    },
+    "multi_entity": {
+      "total": 15,
+      "exact": 15,
+      "accuracy": 1.0
+    },
+    "adversarial_negatives": {
+      "total": 15,
+      "exact": 15,
+      "accuracy": 1.0
+    }
+  },
+  "failures": []
+}

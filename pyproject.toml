@@ -1,0 +1,79 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "paisa-parse"
+version = "0.1.0"
+description = "Hinglish & Indian-English spoken financial entity parser with confidence scores, confirm-back policy, and Pipecat/LiveKit/MCP integrations."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [
+    { name = "paisa-parse contributors" },
+]
+keywords = [
+    "hinglish",
+    "indian-english",
+    "itn",
+    "inverse-text-normalization",
+    "voice-ai",
+    "upi",
+    "ifsc",
+    "pipecat",
+    "livekit",
+    "mcp",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Text Processing :: Linguistic",
+]
+dependencies = []
+
+[project.optional-dependencies]
+pipecat = ["pipecat-ai>=0.0.50"]
+livekit = ["livekit-agents>=1.0.0"]
+mcp = ["mcp>=1.0.0"]
+all = [
+    "pipecat-ai>=0.0.50",
+    "livekit-agents>=1.0.0",
+    "mcp>=1.0.0",
+]
+dev = [
+    "pytest>=8.0",
+    "ruff>=0.8",
+]
+
+[project.scripts]
+paisa-parse = "paisa_parse.cli:main"
+paisa-parse-mcp = "paisa_parse.integrations.mcp_server:main"
+
+[project.urls]
+Homepage = "https://github.com/paisa-parse/paisa-parse"
+Repository = "https://github.com/paisa-parse/paisa-parse"
+Issues = "https://github.com/paisa-parse/paisa-parse/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/paisa_parse"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = ["-p", "no:asyncio"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+ignore = ["E501"]

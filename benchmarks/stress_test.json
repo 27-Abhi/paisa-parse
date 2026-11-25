@@ -1,0 +1,831 @@
+[
+  {
+    "id": "cf-01",
+    "category": "colloquial_fractions",
+    "text": "bhai dedh lakh bhej de",
+    "expected": [{"kind": "amount", "value": "150000", "action": "confirm"}]
+  },
+  {
+    "id": "cf-02",
+    "category": "colloquial_fractions",
+    "text": "dedh hazaar rupaye pay karo",
+    "expected": [{"kind": "amount", "value": "1500", "action": "accept"}]
+  },
+  {
+    "id": "cf-03",
+    "category": "colloquial_fractions",
+    "text": "dedh sau rupaye dena",
+    "expected": [{"kind": "amount", "value": "150", "action": "accept"}]
+  },
+  {
+    "id": "cf-04",
+    "category": "colloquial_fractions",
+    "text": "derh lac transfer karna hai",
+    "expected": [{"kind": "amount", "value": "150000", "action": "confirm"}]
+  },
+  {
+    "id": "cf-05",
+    "category": "colloquial_fractions",
+    "text": "ded sau rupaye ka recharge",
+    "expected": [{"kind": "amount", "value": "150", "action": "confirm"}]
+  },
+  {
+    "id": "cf-06",
+    "category": "colloquial_fractions",
+    "text": "dhai hazaar bhejo",
+    "expected": [{"kind": "amount", "value": "2500", "action": "accept"}]
+  },
+  {
+    "id": "cf-07",
+    "category": "colloquial_fractions",
+    "text": "dhai lakh ka loan chahiye",
+    "expected": [{"kind": "amount", "value": "250000", "action": "confirm"}]
+  },
+  {
+    "id": "cf-08",
+    "category": "colloquial_fractions",
+    "text": "dhai crore ki property hai",
+    "expected": [{"kind": "amount", "value": "25000000", "action": "confirm"}]
+  },
+  {
+    "id": "cf-09",
+    "category": "colloquial_fractions",
+    "text": "dhai sau rupaye bill aaya",
+    "expected": [{"kind": "amount", "value": "250", "action": "accept"}]
+  },
+  {
+    "id": "cf-10",
+    "category": "colloquial_fractions",
+    "text": "sava hazaar jama kar do",
+    "expected": [{"kind": "amount", "value": "1250", "action": "accept"}]
+  },
+  {
+    "id": "cf-11",
+    "category": "colloquial_fractions",
+    "text": "sava sau rupaye bhejna",
+    "expected": [{"kind": "amount", "value": "125", "action": "accept"}]
+  },
+  {
+    "id": "cf-12",
+    "category": "colloquial_fractions",
+    "text": "sava do lakh transfer karo",
+    "expected": [{"kind": "amount", "value": "225000", "action": "confirm"}]
+  },
+  {
+    "id": "cf-13",
+    "category": "colloquial_fractions",
+    "text": "sawa paanch hazaar ka payment",
+    "expected": [{"kind": "amount", "value": "5250", "action": "accept"}]
+  },
+  {
+    "id": "cf-14",
+    "category": "colloquial_fractions",
+    "text": "sava lakh rupaye bhejo",
+    "expected": [{"kind": "amount", "value": "125000", "action": "confirm"}]
+  },
+  {
+    "id": "cf-15",
+    "category": "colloquial_fractions",
+    "text": "paune sau rupaye ka bill",
+    "expected": [{"kind": "amount", "value": "75", "action": "accept"}]
+  },
+  {
+    "id": "cf-16",
+    "category": "colloquial_fractions",
+    "text": "paune do hazaar send karo",
+    "expected": [{"kind": "amount", "value": "1750", "action": "accept"}]
+  },
+  {
+    "id": "cf-17",
+    "category": "colloquial_fractions",
+    "text": "paune do lakh emi bharna hai",
+    "expected": [{"kind": "amount", "value": "175000", "action": "confirm"}]
+  },
+  {
+    "id": "cf-18",
+    "category": "colloquial_fractions",
+    "text": "paune lakh rupaye chahiye",
+    "expected": [{"kind": "amount", "value": "75000", "action": "confirm"}]
+  },
+  {
+    "id": "cf-19",
+    "category": "colloquial_fractions",
+    "text": "pone teen hazar bhej de",
+    "expected": [{"kind": "amount", "value": "2750", "action": "confirm"}]
+  },
+  {
+    "id": "cf-20",
+    "category": "colloquial_fractions",
+    "text": "saade teen lakh transfer",
+    "expected": [{"kind": "amount", "value": "350000", "action": "confirm"}]
+  },
+  {
+    "id": "cf-21",
+    "category": "colloquial_fractions",
+    "text": "saade barah hazaar dena hai",
+    "expected": [{"kind": "amount", "value": "12500", "action": "accept"}]
+  },
+  {
+    "id": "cf-22",
+    "category": "colloquial_fractions",
+    "text": "saade 4 lakh ka FD",
+    "expected": [{"kind": "amount", "value": "450000", "action": "confirm"}]
+  },
+  {
+    "id": "cf-23",
+    "category": "colloquial_fractions",
+    "text": "aadha lakh nikalna hai",
+    "expected": [{"kind": "amount", "value": "50000", "action": "confirm"}]
+  },
+  {
+    "id": "cf-24",
+    "category": "colloquial_fractions",
+    "text": "paav lakh bhej do",
+    "expected": [{"kind": "amount", "value": "25000", "action": "accept"}]
+  },
+  {
+    "id": "cf-25",
+    "category": "colloquial_fractions",
+    "text": "डेढ़ लाख रुपये भेज दो",
+    "expected": [{"kind": "amount", "value": "150000", "action": "confirm"}]
+  },
+  {
+    "id": "ca-01",
+    "category": "compound_amounts",
+    "text": "ek lakh pachaas hazaar rupaye",
+    "expected": [{"kind": "amount", "value": "150000", "action": "confirm"}]
+  },
+  {
+    "id": "ca-02",
+    "category": "compound_amounts",
+    "text": "do crore paanch lakh das hazaar paanch sau",
+    "expected": [{"kind": "amount", "value": "20510500", "action": "confirm"}]
+  },
+  {
+    "id": "ca-03",
+    "category": "compound_amounts",
+    "text": "ek hazaar do sau pachees rupaye",
+    "expected": [{"kind": "amount", "value": "1225", "action": "accept"}]
+  },
+  {
+    "id": "ca-04",
+    "category": "compound_amounts",
+    "text": "teen lakh twenty five thousand",
+    "expected": [{"kind": "amount", "value": "325000", "action": "confirm"}]
+  },
+  {
+    "id": "ca-05",
+    "category": "compound_amounts",
+    "text": "unnis hazaar nau sau ninyanve",
+    "expected": [{"kind": "amount", "value": "19999", "action": "accept"}]
+  },
+  {
+    "id": "ca-06",
+    "category": "compound_amounts",
+    "text": "dedh lakh aur paanch hazaar",
+    "expected": [{"kind": "amount", "value": "155000", "action": "confirm"}]
+  },
+  {
+    "id": "ca-07",
+    "category": "compound_amounts",
+    "text": "pachas rupaye pachees paise",
+    "expected": [{"kind": "amount", "value": "50.25", "action": "accept"}]
+  },
+  {
+    "id": "ca-08",
+    "category": "compound_amounts",
+    "text": "ek sau rupaye aur pachaas paise",
+    "expected": [{"kind": "amount", "value": "100.5", "action": "accept"}]
+  },
+  {
+    "id": "ca-09",
+    "category": "compound_amounts",
+    "text": "500 rupees 75 paise",
+    "expected": [{"kind": "amount", "value": "500.75", "action": "accept"}]
+  },
+  {
+    "id": "ca-10",
+    "category": "compound_amounts",
+    "text": "pachaas paise ka charge",
+    "expected": [{"kind": "amount", "value": "0.5", "action": "accept"}]
+  },
+  {
+    "id": "ca-11",
+    "category": "compound_amounts",
+    "text": "please send ₹1,50,000 today",
+    "expected": [{"kind": "amount", "value": "150000", "action": "confirm"}]
+  },
+  {
+    "id": "ca-12",
+    "category": "compound_amounts",
+    "text": "Rs. 45,000.50 paid",
+    "expected": [{"kind": "amount", "value": "45000.5", "action": "accept"}]
+  },
+  {
+    "id": "ca-13",
+    "category": "compound_amounts",
+    "text": "INR 2500 transfer kiya",
+    "expected": [{"kind": "amount", "value": "2500", "action": "accept"}]
+  },
+  {
+    "id": "ca-14",
+    "category": "compound_amounts",
+    "text": "transfer 50k immediately",
+    "expected": [{"kind": "amount", "value": "50000", "action": "confirm"}]
+  },
+  {
+    "id": "ca-15",
+    "category": "compound_amounts",
+    "text": "1.25 cr investment",
+    "expected": [{"kind": "amount", "value": "12500000", "action": "confirm"}]
+  },
+  {
+    "id": "ca-16",
+    "category": "compound_amounts",
+    "text": "paanch so rupaye bhej de",
+    "expected": [{"kind": "amount", "value": "500", "action": "confirm"}]
+  },
+  {
+    "id": "ca-17",
+    "category": "compound_amounts",
+    "text": "satrah hazaar chhah sau rupaye",
+    "expected": [{"kind": "amount", "value": "17600", "action": "accept"}]
+  },
+  {
+    "id": "ca-18",
+    "category": "compound_amounts",
+    "text": "chhattees hazaar do sau",
+    "expected": [{"kind": "amount", "value": "36200", "action": "accept"}]
+  },
+  {
+    "id": "ca-19",
+    "category": "compound_amounts",
+    "text": "send 2500 right away",
+    "expected": [{"kind": "amount", "value": "2500", "action": "confirm"}]
+  },
+  {
+    "id": "ca-20",
+    "category": "compound_amounts",
+    "text": "५०० रुपये भेज दो",
+    "expected": [{"kind": "amount", "value": "500", "action": "accept"}]
+  },
+  {
+    "id": "sd-01",
+    "category": "spoken_digits",
+    "text": "nau aath saat chhe paanch chaar teen do ek shunya",
+    "expected": [{"kind": "digits", "value": "9876543210", "action": "accept"}]
+  },
+  {
+    "id": "sd-02",
+    "category": "spoken_digits",
+    "text": "nine eight seven six five four three two one zero",
+    "expected": [{"kind": "digits", "value": "9876543210", "action": "accept"}]
+  },
+  {
+    "id": "sd-03",
+    "category": "spoken_digits",
+    "text": "mera mobile number hai saat aath nau double zero ek do teen chaar paanch",
+    "expected": [{"kind": "digits", "value": "7890012345", "action": "accept"}]
+  },
+  {
+    "id": "sd-04",
+    "category": "spoken_digits",
+    "text": "phone number eight eight double two triple five one zero nine",
+    "expected": [{"kind": "digits", "value": "8822555109", "action": "accept"}]
+  },
+  {
+    "id": "sd-05",
+    "category": "spoken_digits",
+    "text": "otp hai chaar aath do nau",
+    "expected": [{"kind": "digits", "value": "4829", "action": "accept"}]
+  },
+  {
+    "id": "sd-06",
+    "category": "spoken_digits",
+    "text": "otp is seven five three one nine zero",
+    "expected": [{"kind": "digits", "value": "753190", "action": "accept"}]
+  },
+  {
+    "id": "sd-07",
+    "category": "spoken_digits",
+    "text": "mera pin hai ek do teen chaar",
+    "expected": [{"kind": "digits", "value": "1234", "action": "accept"}]
+  },
+  {
+    "id": "sd-08",
+    "category": "spoken_digits",
+    "text": "account number chaar paanch chhe saat aath nau shunya ek do teen chaar",
+    "expected": [{"kind": "digits", "value": "45678901234", "action": "accept"}]
+  },
+  {
+    "id": "sd-09",
+    "category": "spoken_digits",
+    "text": "phone nine eight oh seven six five four three two one",
+    "expected": [{"kind": "digits", "value": "9807654321", "action": "accept"}]
+  },
+  {
+    "id": "sd-10",
+    "category": "spoken_digits",
+    "text": "number hai nau aath teen baar shunya ek do teen chaar",
+    "expected": [{"kind": "digits", "value": "980001234", "action": "accept"}]
+  },
+  {
+    "id": "sd-11",
+    "category": "spoken_digits",
+    "text": "mobile number nine eight oh oh seven six five four three two",
+    "expected": [{"kind": "digits", "value": "9800765432", "action": "confirm"}]
+  },
+  {
+    "id": "sd-12",
+    "category": "spoken_digits",
+    "text": "call me on 98 76 54 32 10",
+    "expected": [{"kind": "digits", "value": "9876543210", "action": "accept"}]
+  },
+  {
+    "id": "sd-13",
+    "category": "spoken_digits",
+    "text": "whatsapp 9876543210",
+    "expected": [{"kind": "digits", "value": "9876543210", "action": "accept"}]
+  },
+  {
+    "id": "sd-14",
+    "category": "spoken_digits",
+    "text": "otp is 482910",
+    "expected": [{"kind": "digits", "value": "482910", "action": "accept"}]
+  },
+  {
+    "id": "sd-15",
+    "category": "spoken_digits",
+    "text": "mobile number nau aath saat chhe paanch chaar teen do ek",
+    "expected": [{"kind": "digits", "value": "987654321", "action": "reprompt"}]
+  },
+  {
+    "id": "sd-16",
+    "category": "spoken_digits",
+    "text": "otp is one two three",
+    "expected": [{"kind": "digits", "value": "123", "action": "confirm"}]
+  },
+  {
+    "id": "sd-17",
+    "category": "spoken_digits",
+    "text": "verification code double seven double eight",
+    "expected": [{"kind": "digits", "value": "7788", "action": "accept"}]
+  },
+  {
+    "id": "sd-18",
+    "category": "spoken_digits",
+    "text": "account number 302918475612",
+    "expected": [{"kind": "digits", "value": "302918475612", "action": "accept"}]
+  },
+  {
+    "id": "sd-19",
+    "category": "spoken_digits",
+    "text": "mobile number dabal nau aath saat chhe paanch chaar teen do ek",
+    "expected": [{"kind": "digits", "value": "9987654321", "action": "accept"}]
+  },
+  {
+    "id": "sd-20",
+    "category": "spoken_digits",
+    "text": "mpin tripal two five",
+    "expected": [{"kind": "digits", "value": "2225", "action": "accept"}]
+  },
+  {
+    "id": "upi-01",
+    "category": "upi_ids",
+    "text": "rahul.sharma@okicici",
+    "expected": [{"kind": "upi_id", "value": "rahul.sharma@okicici", "action": "accept"}]
+  },
+  {
+    "id": "upi-02",
+    "category": "upi_ids",
+    "text": "send to 9876543210@ybl",
+    "expected": [{"kind": "upi_id", "value": "9876543210@ybl", "action": "accept"}]
+  },
+  {
+    "id": "upi-03",
+    "category": "upi_ids",
+    "text": "mera upi hai priya@paytm",
+    "expected": [{"kind": "upi_id", "value": "priya@paytm", "action": "accept"}]
+  },
+  {
+    "id": "upi-04",
+    "category": "upi_ids",
+    "text": "rahul dot verma at ok icici",
+    "expected": [{"kind": "upi_id", "value": "rahul.verma@okicici", "action": "accept"}]
+  },
+  {
+    "id": "upi-05",
+    "category": "upi_ids",
+    "text": "priya underscore k at the rate ybl",
+    "expected": [{"kind": "upi_id", "value": "priya_k@ybl", "action": "accept"}]
+  },
+  {
+    "id": "upi-06",
+    "category": "upi_ids",
+    "text": "rohit.kumar @ ok axis pe bhejo",
+    "expected": [{"kind": "upi_id", "value": "rohit.kumar@okaxis", "action": "accept"}]
+  },
+  {
+    "id": "upi-07",
+    "category": "upi_ids",
+    "text": "vpa is amit at the rate of ok sbi",
+    "expected": [{"kind": "upi_id", "value": "amit@oksbi", "action": "accept"}]
+  },
+  {
+    "id": "upi-08",
+    "category": "upi_ids",
+    "text": "neha dot singh at ok hdfc bank",
+    "expected": [{"kind": "upi_id", "value": "neha.singh@okhdfcbank", "action": "accept"}]
+  },
+  {
+    "id": "upi-09",
+    "category": "upi_ids",
+    "text": "nau aath saat chhe paanch chaar teen do ek shunya at ybl",
+    "expected": [{"kind": "upi_id", "value": "9876543210@ybl", "action": "accept"}]
+  },
+  {
+    "id": "upi-10",
+    "category": "upi_ids",
+    "text": "pay to ankit at pay tm",
+    "expected": [{"kind": "upi_id", "value": "ankit@paytm", "action": "accept"}]
+  },
+  {
+    "id": "upi-11",
+    "category": "upi_ids",
+    "text": "arjun dash 99 at a p l",
+    "expected": [{"kind": "upi_id", "value": "arjun-99@apl", "action": "accept"}]
+  },
+  {
+    "id": "upi-12",
+    "category": "upi_ids",
+    "text": "merchant123@icici",
+    "expected": [{"kind": "upi_id", "value": "merchant123@icici", "action": "accept"}]
+  },
+  {
+    "id": "upi-13",
+    "category": "upi_ids",
+    "text": "suresh at u p i",
+    "expected": [{"kind": "upi_id", "value": "suresh@upi", "action": "accept"}]
+  },
+  {
+    "id": "upi-14",
+    "category": "upi_ids",
+    "text": "kavita at the rate custombank",
+    "expected": [{"kind": "upi_id", "value": "kavita@custombank", "action": "confirm"}]
+  },
+  {
+    "id": "upi-15",
+    "category": "upi_ids",
+    "text": "deepak@unknownpsp",
+    "expected": [{"kind": "upi_id", "value": "deepak@unknownpsp", "action": "confirm"}]
+  },
+  {
+    "id": "upi-16",
+    "category": "upi_ids",
+    "text": "bhej do vikram at i b l",
+    "expected": [{"kind": "upi_id", "value": "vikram@ibl", "action": "accept"}]
+  },
+  {
+    "id": "upi-17",
+    "category": "upi_ids",
+    "text": "meera.joshi@axisb",
+    "expected": [{"kind": "upi_id", "value": "meera.joshi@axisb", "action": "accept"}]
+  },
+  {
+    "id": "upi-18",
+    "category": "upi_ids",
+    "text": "tarun at wa icici",
+    "expected": [{"kind": "upi_id", "value": "tarun@waicici", "action": "accept"}]
+  },
+  {
+    "id": "upi-19",
+    "category": "upi_ids",
+    "text": "pooja at pt hdfc",
+    "expected": [{"kind": "upi_id", "value": "pooja@pthdfc", "action": "accept"}]
+  },
+  {
+    "id": "upi-20",
+    "category": "upi_ids",
+    "text": "kiran_patel@kotak811",
+    "expected": [{"kind": "upi_id", "value": "kiran_patel@kotak811", "action": "accept"}]
+  },
+  {
+    "id": "ifsc-01",
+    "category": "ifsc_codes",
+    "text": "SBIN0001234",
+    "expected": [{"kind": "ifsc", "value": "SBIN0001234", "action": "accept"}]
+  },
+  {
+    "id": "ifsc-02",
+    "category": "ifsc_codes",
+    "text": "HDFC 0000240",
+    "expected": [{"kind": "ifsc", "value": "HDFC0000240", "action": "accept"}]
+  },
+  {
+    "id": "ifsc-03",
+    "category": "ifsc_codes",
+    "text": "ICIC-000-0104",
+    "expected": [{"kind": "ifsc", "value": "ICIC0000104", "action": "accept"}]
+  },
+  {
+    "id": "ifsc-04",
+    "category": "ifsc_codes",
+    "text": "IFSC SBIN triple zero ek do teen chaar",
+    "expected": [{"kind": "ifsc", "value": "SBIN0001234", "action": "accept"}]
+  },
+  {
+    "id": "ifsc-05",
+    "category": "ifsc_codes",
+    "text": "ifsc is h d f c zero zero zero zero two four zero",
+    "expected": [{"kind": "ifsc", "value": "HDFC0000240", "action": "accept"}]
+  },
+  {
+    "id": "ifsc-06",
+    "category": "ifsc_codes",
+    "text": "SBINO001234",
+    "expected": [{"kind": "ifsc", "value": "SBIN0001234", "action": "confirm"}]
+  },
+  {
+    "id": "ifsc-07",
+    "category": "ifsc_codes",
+    "text": "ifsc U T I B zero double zero nine eight seven six",
+    "expected": [{"kind": "ifsc", "value": "UTIB0009876", "action": "accept"}]
+  },
+  {
+    "id": "ifsc-08",
+    "category": "ifsc_codes",
+    "text": "branch code KKBK0000958",
+    "expected": [{"kind": "ifsc", "value": "KKBK0000958", "action": "accept"}]
+  },
+  {
+    "id": "ifsc-09",
+    "category": "ifsc_codes",
+    "text": "XYZW0001234",
+    "expected": [{"kind": "ifsc", "value": "XYZW0001234", "action": "confirm"}]
+  },
+  {
+    "id": "ifsc-10",
+    "category": "ifsc_codes",
+    "text": "ifsc code SBIN00012",
+    "expected": [{"kind": "ifsc", "value": "SBIN00012", "action": "reprompt"}]
+  },
+  {
+    "id": "ifsc-11",
+    "category": "ifsc_codes",
+    "text": "ifsc code SBIN1001234",
+    "expected": [{"kind": "ifsc", "value": "SBIN1001234", "action": "reprompt"}]
+  },
+  {
+    "id": "ifsc-12",
+    "category": "ifsc_codes",
+    "text": "BARB0VJPUNE",
+    "expected": [{"kind": "ifsc", "value": "BARB0VJPUNE", "action": "accept"}]
+  },
+  {
+    "id": "ifsc-13",
+    "category": "ifsc_codes",
+    "text": "PUNB zero one two three four five six",
+    "expected": [{"kind": "ifsc", "value": "PUNB0123456", "action": "accept"}]
+  },
+  {
+    "id": "ifsc-14",
+    "category": "ifsc_codes",
+    "text": "YESB0CMSNOC",
+    "expected": [{"kind": "ifsc", "value": "YESB0CMSNOC", "action": "accept"}]
+  },
+  {
+    "id": "ifsc-15",
+    "category": "ifsc_codes",
+    "text": "ifsc IDFB oh double zero four three two one",
+    "expected": [{"kind": "ifsc", "value": "IDFB0004321", "action": "confirm"}]
+  },
+  {
+    "id": "me-01",
+    "category": "multi_entity",
+    "text": "bhai rahul dot verma at ok icici pe dedh lakh bhej do",
+    "expected": [
+      {"kind": "upi_id", "value": "rahul.verma@okicici", "action": "accept"},
+      {"kind": "amount", "value": "150000", "action": "confirm"}
+    ]
+  },
+  {
+    "id": "me-02",
+    "category": "multi_entity",
+    "text": "transfer paune do hazaar to priya@ybl and otp is 4829",
+    "expected": [
+      {"kind": "amount", "value": "1750", "action": "accept"},
+      {"kind": "upi_id", "value": "priya@ybl", "action": "accept"},
+      {"kind": "digits", "value": "4829", "action": "accept"}
+    ]
+  },
+  {
+    "id": "me-03",
+    "category": "multi_entity",
+    "text": "IFSC SBIN0001234 account number 987654321012 mein sava lakh transfer karo",
+    "expected": [
+      {"kind": "ifsc", "value": "SBIN0001234", "action": "accept"},
+      {"kind": "digits", "value": "987654321012", "action": "accept"},
+      {"kind": "amount", "value": "125000", "action": "confirm"}
+    ]
+  },
+  {
+    "id": "me-04",
+    "category": "multi_entity",
+    "text": "pay Rs 2500 to 9876543210@okaxis",
+    "expected": [
+      {"kind": "amount", "value": "2500", "action": "accept"},
+      {"kind": "upi_id", "value": "9876543210@okaxis", "action": "accept"}
+    ]
+  },
+  {
+    "id": "me-05",
+    "category": "multi_entity",
+    "text": "mera phone nau aath saat chhe paanch chaar teen do ek shunya aur dhai hazaar bhej do",
+    "expected": [
+      {"kind": "digits", "value": "9876543210", "action": "accept"},
+      {"kind": "amount", "value": "2500", "action": "accept"}
+    ]
+  },
+  {
+    "id": "me-06",
+    "category": "multi_entity",
+    "text": "saade teen lakh IFSC HDFC triple zero two four five six pe bhejo",
+    "expected": [
+      {"kind": "amount", "value": "350000", "action": "confirm"},
+      {"kind": "ifsc", "value": "HDFC0002456", "action": "accept"}
+    ]
+  },
+  {
+    "id": "me-07",
+    "category": "multi_entity",
+    "text": "upi ankit@paytm ko paanch sau rupaye aur otp hai 912045",
+    "expected": [
+      {"kind": "upi_id", "value": "ankit@paytm", "action": "accept"},
+      {"kind": "amount", "value": "500", "action": "accept"},
+      {"kind": "digits", "value": "912045", "action": "accept"}
+    ]
+  },
+  {
+    "id": "me-08",
+    "category": "multi_entity",
+    "text": "ek hazaar do sau pachees rupaye bhejo rohit dot sharma at ok sbi",
+    "expected": [
+      {"kind": "amount", "value": "1225", "action": "accept"},
+      {"kind": "upi_id", "value": "rohit.sharma@oksbi", "action": "accept"}
+    ]
+  },
+  {
+    "id": "me-09",
+    "category": "multi_entity",
+    "text": "pin ek do teen chaar se ₹1,200 pay karo",
+    "expected": [
+      {"kind": "digits", "value": "1234", "action": "accept"},
+      {"kind": "amount", "value": "1200", "action": "accept"}
+    ]
+  },
+  {
+    "id": "me-10",
+    "category": "multi_entity",
+    "text": "sava sau rupaye bhejo SBINO001234 pe",
+    "expected": [
+      {"kind": "amount", "value": "125", "action": "accept"},
+      {"kind": "ifsc", "value": "SBIN0001234", "action": "confirm"}
+    ]
+  },
+  {
+    "id": "me-11",
+    "category": "multi_entity",
+    "text": "mobile 9876543210 pe 500 rupees bhej do",
+    "expected": [
+      {"kind": "digits", "value": "9876543210", "action": "accept"},
+      {"kind": "amount", "value": "500", "action": "accept"}
+    ]
+  },
+  {
+    "id": "me-12",
+    "category": "multi_entity",
+    "text": "IFSC ICIC0000104 and amount dedh crore",
+    "expected": [
+      {"kind": "ifsc", "value": "ICIC0000104", "action": "accept"},
+      {"kind": "amount", "value": "15000000", "action": "confirm"}
+    ]
+  },
+  {
+    "id": "me-13",
+    "category": "multi_entity",
+    "text": "otp seven five three one for amit at ybl",
+    "expected": [
+      {"kind": "digits", "value": "7531", "action": "accept"},
+      {"kind": "upi_id", "value": "amit@ybl", "action": "accept"}
+    ]
+  },
+  {
+    "id": "me-14",
+    "category": "multi_entity",
+    "text": "pachas rupaye pachees paise send to neha@ibl",
+    "expected": [
+      {"kind": "amount", "value": "50.25", "action": "accept"},
+      {"kind": "upi_id", "value": "neha@ibl", "action": "accept"}
+    ]
+  },
+  {
+    "id": "me-15",
+    "category": "multi_entity",
+    "text": "account 123456789012 IFSC UTIB0000456 amount 45000 rupees",
+    "expected": [
+      {"kind": "digits", "value": "123456789012", "action": "accept"},
+      {"kind": "ifsc", "value": "UTIB0000456", "action": "accept"},
+      {"kind": "amount", "value": "45000", "action": "accept"}
+    ]
+  },
+  {
+    "id": "neg-01",
+    "category": "adversarial_negatives",
+    "text": "priya@gmail.com pe email bhej do",
+    "expected": []
+  },
+  {
+    "id": "neg-02",
+    "category": "adversarial_negatives",
+    "text": "contact support@yahoo.co.in for help",
+    "expected": []
+  },
+  {
+    "id": "neg-03",
+    "category": "adversarial_negatives",
+    "text": "no thanks I do not want a loan",
+    "expected": []
+  },
+  {
+    "id": "neg-04",
+    "category": "adversarial_negatives",
+    "text": "so what is my account balance right now",
+    "expected": []
+  },
+  {
+    "id": "neg-05",
+    "category": "adversarial_negatives",
+    "text": "meet me at 5 pm near the office",
+    "expected": []
+  },
+  {
+    "id": "neg-06",
+    "category": "adversarial_negatives",
+    "text": "I have two bank accounts in Delhi",
+    "expected": []
+  },
+  {
+    "id": "neg-07",
+    "category": "adversarial_negatives",
+    "text": "aadha ghanta ruk jao bhai",
+    "expected": []
+  },
+  {
+    "id": "neg-08",
+    "category": "adversarial_negatives",
+    "text": "hello namaste kaise ho aap",
+    "expected": []
+  },
+  {
+    "id": "neg-09",
+    "category": "adversarial_negatives",
+    "text": "year 2026 financial statement download karo",
+    "expected": []
+  },
+  {
+    "id": "neg-10",
+    "category": "adversarial_negatives",
+    "text": "please check my transaction history at home",
+    "expected": []
+  },
+  {
+    "id": "neg-11",
+    "category": "adversarial_negatives",
+    "text": "oh okay got it thank you",
+    "expected": []
+  },
+  {
+    "id": "neg-12",
+    "category": "adversarial_negatives",
+    "text": "rahul dot sharma at gmail dot com",
+    "expected": []
+  },
+  {
+    "id": "neg-13",
+    "category": "adversarial_negatives",
+    "text": "one two three go",
+    "expected": []
+  },
+  {
+    "id": "neg-14",
+    "category": "adversarial_negatives",
+    "text": "ek minute hold kijiye",
+    "expected": []
+  },
+  {
+    "id": "neg-15",
+    "category": "adversarial_negatives",
+    "text": "send it now please",
+    "expected": []
+  }
+]
