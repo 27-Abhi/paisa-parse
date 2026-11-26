@@ -58,3 +58,10 @@ def test_stress_test_benchmark_meets_quality_gate() -> None:
     assert report["utterance_accuracy"] >= 0.95
     assert report["entity_metrics"]["f1"] >= 0.96
     assert report["policy_accuracy"] >= 0.95
+
+
+def test_package_version_and_py_typed() -> None:
+    import paisa_parse
+
+    assert paisa_parse.__version__ == "0.1.1"
+    assert (ROOT / "src" / "paisa_parse" / "py.typed").is_file()

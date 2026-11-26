@@ -1,5 +1,11 @@
 # paisa-parse
 
+[![PyPI version](https://img.shields.io/pypi/v/paisa-parse.svg)](https://pypi.org/project/paisa-parse/)
+[![PyPI downloads](https://static.pepy.tech/badge/paisa-parse)](https://pepy.tech/projects/paisa-parse)
+[![Python versions](https://img.shields.io/pypi/pyversions/paisa-parse.svg)](https://pypi.org/project/paisa-parse/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![CI](https://github.com/27-Abhi/paisa-parse/actions/workflows/ci.yml/badge.svg)](https://github.com/27-Abhi/paisa-parse/actions/workflows/ci.yml)
+
 **Zero-dependency Hinglish & Indian-English spoken financial entity parser** with confidence scores, a confirm-back policy, and drop-in plugins for **Pipecat**, **LiveKit Agents**, and **MCP**.
 
 Turns noisy ASR transcripts into structured Indian financial values:
@@ -151,11 +157,11 @@ Evaluated on [`benchmarks/stress_test.json`](benchmarks/stress_test.json) (130 r
 
 ## Adoption & Community Status (Honest Reporting)
 
-Current status as of **v0.1.0** (pre-publish local release):
+Current status as of **v0.1.1**:
 
-- **PyPI Downloads**: `0` (package not yet uploaded to PyPI; see [`PUBLISHING.md`](PUBLISHING.md) for upload steps)
-- **GitHub Stars / Open Issues**: `0 stars / 0 issues` (repository not yet pushed publicly)
-- **Pipecat / LiveKit Community Listings**: `Pending submission` (adapters and demos included; community PR/listing links will be added once published)
+- **PyPI Downloads**: Tracked live at [pepy.tech/projects/paisa-parse](https://pepy.tech/projects/paisa-parse) and [pypistats.org/packages/paisa-parse](https://pypistats.org/packages/paisa-parse) (initial release; `0` prior to `0.1.1` upload)
+- **GitHub Stars / Open Issues**: Tracked at [github.com/27-Abhi/paisa-parse](https://github.com/27-Abhi/paisa-parse) (`0` stars / `0` issues at initial release)
+- **Pipecat / LiveKit Community Listings**: Pending submission (adapters and demos included under `src/paisa_parse/integrations/` and `examples/`)
 
 ---
 

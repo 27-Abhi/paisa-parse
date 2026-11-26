@@ -4,13 +4,13 @@ build-backend = "hatchling.build"
 
 [project]
 name = "paisa-parse"
-version = "0.1.0"
+version = "0.1.1"
 description = "Hinglish & Indian-English spoken financial entity parser with confidence scores, confirm-back policy, and Pipecat/LiveKit/MCP integrations."
 readme = "README.md"
 license = { text = "MIT" }
 requires-python = ">=3.10"
 authors = [
-    { name = "paisa-parse contributors" },
+    { name = "27-abhi", email = "abhinavkuppasad27@gmail.com" },
 ]
 keywords = [
     "hinglish",
@@ -36,6 +36,7 @@ classifiers = [
     "Programming Language :: Python :: 3.13",
     "Topic :: Software Development :: Libraries :: Python Modules",
     "Topic :: Text Processing :: Linguistic",
+    "Typing :: Typed",
 ]
 dependencies = []
 
@@ -58,9 +59,11 @@ paisa-parse = "paisa_parse.cli:main"
 paisa-parse-mcp = "paisa_parse.integrations.mcp_server:main"
 
 [project.urls]
-Homepage = "https://github.com/paisa-parse/paisa-parse"
-Repository = "https://github.com/paisa-parse/paisa-parse"
-Issues = "https://github.com/paisa-parse/paisa-parse/issues"
+Homepage = "https://github.com/27-Abhi/paisa-parse"
+Repository = "https://github.com/27-Abhi/paisa-parse"
+Documentation = "https://github.com/27-Abhi/paisa-parse#readme"
+Changelog = "https://github.com/27-Abhi/paisa-parse/blob/main/CHANGELOG.md"
+Issues = "https://github.com/27-Abhi/paisa-parse/issues"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/paisa_parse"]
